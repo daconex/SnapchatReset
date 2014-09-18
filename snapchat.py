@@ -1,7 +1,7 @@
 import os
 
-snapchat_tmp = '/var/mobile/Applications/8DBC5F17-336E-42B0-8E2A-EA184BD1C34C/tmp/'
-snapchat_doc = '/var/mobile/Applications/8DBC5F17-336E-42B0-8E2A-EA184BD1C34C/Documents/'
+snapchat_tmp = path + '/tmp/'
+snapchat_doc = path + '/Documents/'
 
 def remove_files(folder):
     for file in os.listdir(folder):
