@@ -1,3 +1,4 @@
+path = '/var/mobile/Applications/3BF38C99-0DEC-4F91-96FC-CA841E385928'
 import os
 
 snapchat_tmp = path + '/tmp/'
@@ -16,6 +17,7 @@ def remove_files(folder):
 def main():
     remove_files(snapchat_tmp)
     remove_files(snapchat_doc)
+    print "Finished!"
 
 if __name__ == "__main__":
     main()
